@@ -18,6 +18,45 @@
 	<br>
 	<div class="container">
 		<form action="home.html">
+				
+				<label for="name">Name:</label> <input type="text" id="name" name="nameField">
+				<br>
+				<label for="my_email_field">Email:</label> <input type="email" name="my_email_field" placeholder="john@email.com">
+				<br>
+				<label for="my_pw_field">Password:</label><input type="password" name="my_pw_field">
+				<br>
+				<label for="my_pw_field1">Confirm Password:</label><input type="password" name="my_pw_field1">
+				<br>
+				<input type="radio" name="alumni" value="yes" checked> Alumni
+				<input type="radio" name="alumni" value="no"> Not an Alumni
+
+				<br>
+
+				<input type="radio" name="student" value="yes" checked> Student
+				<input type="radio" name="student" value="no"> Not a Student
+
+				<br>
+
+				<input type="radio" name="grad" value="yes" checked> Grad Student
+				<input type="radio" name="grad" value="no"> Undergrad Student
+
+				<br>
+
+				<label>Grade: <select name="grade">
+						<option selected>Pick an Option</option>
+						<option value="1">Freshman</option>
+						<option value="2">Sophmore</option>
+						<option value="3">Junior</option>
+						<option value="4">Senior</option>
+					</select></label>
+					<br>
+					<label>Graduate Level: <select name="grad_grade">
+							<option selected>Pick an Option</option>
+							<option value="1">MA</option>
+							<option value="2">MBA</option>
+							<option value="3">PHD</option>
+						</select></label>
+
 			<!--
 				Todo: Create a form with the following fields:
 					1. Name Text Field
